@@ -1,0 +1,83 @@
+/* for container header */
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+/* header */
+.header {
+    background-color: #4899d0;
+    height: 65px;
+    width: 100%;
+}
+
+/* for logo */
+.header-logo{
+    padding-left: 40px;
+    padding-right: 60px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+    float: left;
+    letter-spacing: 2px;
+}
+
+/* tag a untuk menu di header */
+.header-left a{
+    list-style: none;
+    float: left;
+    padding-right: 30px;
+    margin-top: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+/* for daftar & login */
+.header-right{
+    list-style: none;
+    float: right;
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+/* for tag a di btn daftar & login */
+.header-right a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+/* button nyala saat kursur terarah ke button */
+.login:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* button nyala saat kursur terarah ke button */
+.daftar:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* button daftar */
+.daftar{
+    float: right;
+    padding-left: 30px;
+    transition: all 0.5s;
+    line-height: 65px;
+    color: white;
+    display: block;
+}
+
+/* button login */
+.login{
+    float: right;
+    transition: all 0.5s;
+    line-height: 65px;
+    padding-left: 30px;
+    color: white;
+    display: block;
+}
