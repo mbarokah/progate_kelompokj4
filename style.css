@@ -1,10 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
 /* for body */
 body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* for container header */
 .container {
+    max-width: 1170px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
@@ -19,70 +28,48 @@ body {
 
 /* for logo */
 .header-logo{
-    padding-left: 20px;
-    padding-right: 60px;
     font-size: 20px;
     color: white;
     font-family: sans-serif;
-    margin-top: 20px;
+    line-height: 65px;
     float: left;
     letter-spacing: 2px;
 }
 
 /* tag a untuk menu di header */
 .header-left a{
-    list-style: none;
     float: left;
-    padding-right: 30px;
-    margin-top: 24px;
-    text-decoration: none;
-    color: white;
+    padding:0 25px;
+    color: white;   
+    line-height: 65px;
+    display:block;
+}
+
+.header-left a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* for daftar & login */
 .header-right{
-    list-style: none;
     float: right;
-    padding-right: 10px;
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-family: sans-serif;
+    margin-right: -25px;
 }
 
 /* for tag a di btn daftar & login */
 .header-right a{
-    padding-right: 30px;
-    text-decoration: none;
+    padding:0 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 65px;
     color: white;
+    float:right;
+    transition:all 0.5s;
 }
 
-/* button nyala saat kursur terarah ke button */
-.login:hover {
+.header-right a:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* button nyala saat kursur terarah ke button */
-.daftar:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-/* button daftar */
-.daftar{
-    float: right;
-    padding-left: 30px;
-    transition: all 0.5s;
-    line-height: 65px;
-    color: white;
-    display: block;
-}
-
-/* button login */
-.login{
-    float: right;
-    transition: all 0.5s;
-    line-height: 65px;
-    padding-left: 30px;
-    color: white;
-    display: block;
+.menu-icon{
+    display:none;
 }

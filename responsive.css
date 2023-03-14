@@ -1,0 +1,37 @@
+/* Untuk Tablet*/
+@media all and (max-width: 1000px){
+    /* .header-left a{
+        font-size:18px;
+    }
+    .header-right{
+        widht:100%;
+    } */
+}
+
+@media screen and (max-width:750px){
+    .header-left a{
+        padding:0 5px;
+    }
+    .header-right{
+        float:left;
+    }
+
+}
+
+/* Untuk Smartphone */
+@media screen and (max-width:680px){
+    .header-left a{
+        display:none;
+    }
+    .header-right{
+        display:none;
+    }
+
+    .menu-icon {
+        display:block;
+        color:white;
+        font-size:25px;
+        padding:21px 0;
+        float:right;
+    }
+}
