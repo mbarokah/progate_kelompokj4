@@ -64,10 +64,13 @@
   }
 
   .form-container{
-    /* width: 50; */
     height: auto;
   }
   
+  .footer-wrapper{
+    height: auto;
+    padding-bottom:170px;
+  }
 }
 
 @media screen and (max-width: 170px) {
@@ -93,5 +96,10 @@
     width: 80%;
     height: auto;
     font-size:8px;
+  }
+
+  .form-container button{
+    width: 20%;
+    height: auto;
   }
 }
